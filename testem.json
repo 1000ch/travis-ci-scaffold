@@ -1,0 +1,17 @@
+{
+  "framework": "bower_components/mocha/mocha.js",
+  "dev_dependencies": [
+    "bower_components/chai/chai.js",
+    "bower_components/sinon/index.js"
+  ],
+  "test_page": "./spec/runner.mustache",
+  "src_files": [
+    "./src/target.js",
+    "./spec/*.js"
+  ],
+  "serve_files": [
+    "./src/target.js",
+    "./spec/*.js"
+  ],
+  "launch_in_dev": ["PhantomJS"]
+}

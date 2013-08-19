@@ -1,4 +1,5 @@
-travis-ci-scaffold
-==================
+# travis-ci-scaffold
+
+## About
 
 Travis CI scaffolding.
